@@ -1,0 +1,177 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        /* Featurettes
+         ------------------------- */
+        
+        .featurette {
+            padding-top: 60px; /* Vertically center images part 1: add padding above and below text. */
+            overflow: hidden; /* Vertically center images part 2: clear their floats. */
+        }
+        .featurette-image {
+            margin-top: -60px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+        }
+        
+        /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+        .featurette-image.pull-left {
+            margin-right: 40px;
+        }
+        .featurette-image.pull-right {
+            margin-left: 40px;
+        }
+        
+        /* Thin out the marketing headings */
+        .featurette-heading {
+            font-size: 50px;
+            font-weight: 300;
+            line-height: 1;
+            letter-spacing: -1px;
+        }
+
+        #downloadlist .span3{
+            text-align: center;
+        }
+
+        .span2{
+            text-align: center;
+        }
+
+        .hero-unit{
+            background-color: #fcfcfc;
+        }
+
+    </style>
+</head>
+<body>
+  <div>
+  <div>
+  <nav class="navbar navbar-inverse" role="navigation" style="padding-left:130px;">
+         <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Home</a></li>
+        <li><a href="/product">Prodcts</a></li>
+        <li><a href="/about">About Us<span class="sr-only">(current)</span></a></li>
+      
+      </ul>
+</nav>
+
+<div class="container">
+
+    <div class="hero-unit">
+        <center>
+            <img src="./icons/instayoyo.png" width="256"/>
+            <h2>Insta Yoyo<br/>Download Instagram Pictures & Videos</h2>
+        <p>A browser extension that downloads pictures and videos from Instgram for Chrome users.</p>
+        <hr />
+        <p>
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="JXGVNY8EUMDJ2">
+				<table>
+				<tr><td><input type="hidden" name="on0" value="Donate">Donate</td></tr><tr><td><select name="os0">
+					<option value="Coffee">Coffee $3.00 USD</option>
+					<option value="Frappuccino">Frappuccino $5.00 USD</option>
+					<option value="Pizza">Pizza $10.00 USD</option>
+				</select> </td></tr>
+				</table>
+				<input type="hidden" name="currency_code" value="USD">
+				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form>
+            <a href="#features" class="btn btn-primary btn-large">Learn more features</a> 
+
+            <a href="#download" class="btn btn-success btn-large">Download &raquo;</a>
+        </p>
+
+        </center>
+    </div>
+    
+    <h1 id="download">Download</h1>
+
+    <div class="row" id="downloadlist">
+        <div class="span2">
+            <img class="img-circle" width="140" src="./img/browser/browser-icon-chrome-256.png" />
+            <h3>Chrome</h3>
+            <p class="muted">0.4.5</p>
+            <p>
+                <a href="https://chrome.google.com/webstore/detail/qclean-remove-facebook-ad/fdhhejjkjfjkchkimomgfegnpapndjne" class="btn btn-success" ><i class="icon-download icon-white"></i> Download</a>
+            </p>
+            <p>
+                <a href="#problems" class="btn btn-info"><i class="icon-question-sign icon-white"></i> Cannot Install?</a>
+            </p>
+        </div>
+    </div>
+    <hr class="featurette-divider">
+
+    <h1 id="features">Features</h1>
+    
+    <div class="featurette">
+        <img width="512" class="featurette-image pull-left" src="./img/features/suggested_post_page_remove.png">
+        <h3>Remove Suggested Pages & Posts<br/><span class="muted">移除「推薦粉絲專頁」以及「建議貼文」。</span></h3>
+        <p>
+        </p>
+    </div>
+    <hr class="featurette-divider">
+
+    <div class="featurette">
+        <img width="512" class="featurette-image pull-left" src="./img/features/ads_on_newsfeed_remove.png">
+        <h3>Remove Ads on Newsfeed Page<br/><span class="muted">移除動態旁的廣告。</span></h3>
+        <p>
+        </p>
+    </div>
+    <hr class="featurette-divider">
+
+    <div class="featurette">
+        <img width="512" class="featurette-image pull-left" src="./img/features/personal_page_ads_remove.png">
+        <h3>Remove Ads on Your Personal Page<br/><span class="muted">移除個人頁面旁的廣告。</span></h3>
+        <p>
+        </p>
+    </div>
+    <hr class="featurette-divider">
+
+    <div class="featurette">
+        <img width="512" class="featurette-image pull-left" src="./img/features/photo_ads_remove.png">
+        <h3>Remove Ads on Photo View<br/><span class="muted">移除相片旁的廣告。</span></h3>
+        <p>
+        </p>
+    </div>
+    <hr class="featurette-divider">
+    
+    <div class="featurette">
+        <img width="512" class="featurette-image pull-left" src="./img/features/hide_info.gif">
+        <h3>Folding Recommendations<br/><span class="muted">收納各種推薦，可點擊展開或隱藏。</span><code>New!</code></h3>
+        <p>
+        </p>
+    </div>
+    <hr class="featurette-divider">
+    
+    <div class="featurette">
+        <img width="512" class="featurette-image pull-left" src="./img/features/line_tagged_remove.png">
+        <h3>Hide Spam Information<br/><span class="muted">隱藏垃圾購物訊息。</span><code>Experimental!</code><code>For Taiwan users</code><code>0.4+</code></h3>
+        <p>
+            近來購物社團相當猖獗，利用粉絲專頁、虛擬帳號或盜取帳號等方式將使用者以及使用者的朋友標記於圖片之上，大量散播令人生厭的購物訊息，QCLean目前正在試驗此一實驗中之功能，將其隱藏。
+        </p>
+    </div>
+    <hr class="featurette-divider">
+
+    <h1 id="problems">Problems?</h1>
+    <div class="featurette">
+        <h3>Cannot remove ads/suggested pages & posts?<br/><span class="muted">無法移除廣告或建議貼文？</span></h3>
+        <p>
+            <a href="https://chrome.google.com/webstore/support/fdhhejjkjfjkchkimomgfegnpapndjne#bug" class="btn btn-warning btn-large">Report Bugs &raquo;</a> 
+        </p>
+    </div>
+    <hr class="featurette-divider">
+    
+    <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 qcl.tw &middot; <a href="http://blog.qcl.tw/">Blog</a></p>
+    </footer>
+
+</div>
+
+<script src="./js/jquery.js" ></script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
